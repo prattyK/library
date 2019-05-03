@@ -1,0 +1,93 @@
+Merge Sort : 
+Time Complexity : 
+
+Average : O(nlogn) 
+Worst : O(nlogn)
+Best : O(nlogn)
+
+Space Complexity : 
+
+WorstCase : О(n) total with O(n) auxiliary, O(1) auxiliary with linked list
+
+
+Use : It should use with linked lists because of merging overhead.
+
+https://stackoverflow.com/questions/5222730/why-is-merge-sort-preferred-over-quick-sort-for-sorting-linked-lists
+
+
+Quick Sort : 
+
+Note : Quick Sort use tail recursive calls and this is better with arrays. QS doesn't take extra space for merging arrays. Pivot use to divde array in lesser(LHS) and greater (RHS) elements. QS improves time complexity with randomized way (chose pivot in random way). 
+
+Use of tail recurisve elimination, QS would have log n space complexity in worstcase .
+
+Time Complexity : 
+Average : ~(nlogn) 
+Worst : O(n2)
+Best : O(nlogn)
+
+Quick Sort Randomized : 
+
+Time Complexity : 
+Average : O(nlogn) 
+Worst : O(nlogn) 
+Best : O(nlogn) 
+
+Space Complexity : 
+Worst Case :
+O(n) auxiliary (naive)
+O(log n) auxiliary 
+
+Use : Basically used in Virtual Memory Concepts(Explore)
+
+Auxiliary Space is the extra space or temporary space used by an algorithm.
+
+Space Complexity of an algorithm is total space taken by the algorithm with respect to the input size. Space complexity includes both Auxiliary space and space used by input.
+
+
+Heap Sort : 
+
+Heap sort is a comparison based sorting technique based on Binary Heap data structure. 
+
+Use : 
+
+Heap Sort is used in algo of Graphs and creation of priority queues. It is used in linux kernel designing and memory mgmt.
+
+There are following components using in heap sort : 	
+a) Build Max Heap - O(n)
+b) Max Heapify - O(log n)
+c) GetMax  - O(1)
+d) extractMax - O(logn)
+e) insert - O(log n)
+f) Heap Increase Key  - O(log n)
+g) HEAP-MAXIMUM - O (log n)
+h) HeapSort - O(nlogn)
+
+Arr[(i-1)/2] Returns the parent node.
+Arr[(2*i)+1] Returns the left child node.
+Arr[(2*i)+2] Returns the right child node. 
+
+
+Binary Search Tree : 
+
+It is linked data structure in which each node is an object .
+
+Use :
+The binary search tree is a different way of structuring data so that it can still be binary searched (or a very similar procedure can be used), but it's easier to add and remove elements. Instead of just storing the elements contiguously from least to greatest, the data is maintained in many separate chunks, making adding an element a matter of adding a new chunk of memory and linking it to existing chunks.
+
+ST used in Unix kernels for managing a set of virtual memory areas (VMAs).
+
+Successor of Node : 
+
+Smallest key which is greater than value of given node. Complexity : O(h)
+
+The key in BST are always sorted in such a way as to satisfy the BST properties : 
+
+left <= Parent <=right 
+
+Note : BST would be sorted if we track it in INORDER .
+
+
+
+
+
