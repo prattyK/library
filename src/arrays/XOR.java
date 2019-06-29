@@ -19,7 +19,7 @@ public class XOR {
 	}
 
 	public static void main(String[] args) {
-		int[] input = { 1, 3, 4, 5 };
+		int[] input = { 1, 2, 4, 5};
 		System.out.println("MIssing Number"+new XOR().missingByXOR(input, input.length));
 	}
 }
